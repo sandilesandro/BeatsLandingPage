@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend", sans-serif;
+}
+
+/* Headings and paragraph styles */
+h1 {
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: white;
+}
+
+h2,
+h3,
+h4 {
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: white;
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+/* Reusable styles */
+.text-primary-color {
+  color: #db4437;
+}
+
+.text-secondary-color {
+  color: #f4b400;
+}
+
+.showcase {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#main-header {
+  background: url("./img/section-image.jpg") center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.dark-overlay {
+  position: cover;
+  background-color: rgba(21, 21, 21, 0.8);
+  height: 100vh;
+  width: 100%;
+}
